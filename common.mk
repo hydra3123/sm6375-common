@@ -238,7 +238,8 @@ $(foreach f,$(wildcard $(LOCAL_PATH)/configs/media/*.xml),\
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
-    libcodec2_hidl@1.0.vendor
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_vndk.vendor
 
 # Memtrack HAL
 PRODUCT_PACKAGES += \
@@ -256,19 +257,6 @@ PRODUCT_PACKAGES += \
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
-
-# OMX
-PRODUCT_PACKAGES += \
-    libcodec2_hidl@1.0.vendor \
-    libcodec2_vndk.vendor \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libstagefrighthw \
-    libstagefright_softomx_plugin
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
