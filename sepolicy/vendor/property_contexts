@@ -27,3 +27,6 @@ vendor.powerhal.    u:object_r:vendor_powerhal_prop:s0
 
 # Thermal engine
 vendor.thermal.config                   u:object_r:vendor_thermal_prop:s0
+
+# Fingerprint
+vendor.fingerprint         u:object_r:vendor_fingerprint_prop:s0
