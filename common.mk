@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 # Audio (Dolby Atmos)
-$(call inherit-product, vendor/motorola/dolby/setup.mk)
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
