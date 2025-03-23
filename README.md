@@ -12,4 +12,4 @@ Device configuration for Motorola Sedona Devices
 | Moto G71 | corfur | 11 |
 | Moto G53(j) | penang | 13 |
 | Moto G62 | rhodei | 12 |
-| Moto Edge 30 Neo | miami | 12 |
+| Moto Edge 30 Neo | miami | 12 |# sm6375-common
