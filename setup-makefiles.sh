@@ -54,9 +54,13 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.hardware.wifidisplaysession@1.0)
             echo "$1-vendor"
             ;;
-        libqsap_sdk | \
+            libdiag_system | \
+            libthermalclient | \
+            libqsap_sdk | \
             libril | \
-            libwpa_client) ;;
+            libthermalclient | \
+            libwpa_client | \
+            vendor.qti.qspmhal@1.0) ;;
         *)
             return 1
             ;;
